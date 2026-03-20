@@ -1,0 +1,221 @@
+{
+  "_meta": {
+    "source": "Derived from Kaggle Resume Dataset (snehaanbhawal/resume-dataset) + Lightcast Open Skills taxonomy",
+    "resume_dataset_url": "https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset",
+    "lightcast_url": "https://lightcast.io/open-skills/access",
+    "linkedin_jobs_url": "https://www.kaggle.com/datasets/arshkon/linkedin-job-postings",
+    "version": "1.0",
+    "total_skills": 320,
+    "categories": 18
+  },
+  "categories": {
+    "Data Science": [
+      "Python", "R", "Machine Learning", "Deep Learning", "Data Analysis",
+      "Statistical Modeling", "Data Visualization", "Feature Engineering",
+      "Model Evaluation", "A/B Testing", "Hypothesis Testing", "Time Series Analysis",
+      "Natural Language Processing", "Computer Vision", "Reinforcement Learning",
+      "Data Wrangling", "Exploratory Data Analysis", "Predictive Modeling",
+      "Regression Analysis", "Classification", "Clustering", "Dimensionality Reduction",
+      "Pandas", "NumPy", "Matplotlib", "Seaborn", "Plotly", "Tableau", "Power BI",
+      "Jupyter Notebook", "Google Colab", "MATLAB", "SAS", "SPSS"
+    ],
+    "Machine Learning Engineering": [
+      "PyTorch", "TensorFlow", "Keras", "scikit-learn", "XGBoost", "LightGBM",
+      "CatBoost", "Hugging Face Transformers", "ONNX", "MLflow", "Weights & Biases",
+      "Kubeflow", "Ray", "Dask", "FAISS", "Pinecone", "Weaviate", "Chroma",
+      "LangChain", "LlamaIndex", "OpenAI API", "Anthropic API", "Vector Databases",
+      "Model Deployment", "Model Monitoring", "Feature Stores", "Data Pipelines",
+      "Hyperparameter Tuning", "AutoML", "Transfer Learning", "Fine-tuning LLMs",
+      "Prompt Engineering", "RAG", "Embeddings"
+    ],
+    "Software Engineering": [
+      "Python", "Java", "JavaScript", "TypeScript", "C++", "C", "C#", "Go",
+      "Rust", "Ruby", "PHP", "Swift", "Kotlin", "Scala", "Perl",
+      "Object-Oriented Programming", "Functional Programming", "Design Patterns",
+      "Data Structures", "Algorithms", "System Design", "Microservices Architecture",
+      "RESTful APIs", "GraphQL", "gRPC", "WebSockets", "Test-Driven Development",
+      "Code Review", "Debugging", "Performance Optimization", "Memory Management",
+      "Concurrency", "Multithreading", "Async Programming"
+    ],
+    "Web Development": [
+      "React", "Vue.js", "Angular", "Next.js", "Nuxt.js", "Svelte",
+      "Node.js", "Express.js", "Django", "Flask", "FastAPI", "Spring Boot",
+      "Ruby on Rails", "Laravel", "ASP.NET", "HTML5", "CSS3", "Sass",
+      "Tailwind CSS", "Bootstrap", "Material UI", "Redux", "GraphQL",
+      "REST API Design", "Web Performance", "SEO", "Accessibility",
+      "Progressive Web Apps", "Single Page Applications", "Server-Side Rendering",
+      "Webpack", "Vite", "Babel", "TypeScript"
+    ],
+    "DevOps & Cloud": [
+      "AWS", "Google Cloud Platform", "Microsoft Azure", "Docker", "Kubernetes",
+      "Terraform", "Ansible", "Helm", "Jenkins", "GitHub Actions", "GitLab CI/CD",
+      "CircleCI", "Travis CI", "Nginx", "Apache", "Linux", "Bash Scripting",
+      "Infrastructure as Code", "CI/CD Pipelines", "Site Reliability Engineering",
+      "Monitoring", "Logging", "Prometheus", "Grafana", "ELK Stack",
+      "Service Mesh", "Istio", "ArgoCD", "Vault", "Cloud Security"
+    ],
+    "Data Engineering": [
+      "Apache Spark", "Apache Kafka", "Apache Airflow", "Apache Flink",
+      "dbt", "Snowflake", "Databricks", "BigQuery", "Redshift", "Hadoop",
+      "Hive", "Presto", "ETL Pipelines", "Data Warehousing", "Data Lakes",
+      "Data Modeling", "SQL", "PostgreSQL", "MySQL", "MongoDB", "Cassandra",
+      "Redis", "Elasticsearch", "Neo4j", "Data Quality", "Data Governance",
+      "Stream Processing", "Batch Processing", "Apache Beam", "Fivetran", "Airbyte"
+    ],
+    "Mobile Development": [
+      "Android Development", "iOS Development", "React Native", "Flutter",
+      "Swift", "Kotlin", "Objective-C", "Java (Android)", "Xcode", "Android Studio",
+      "Mobile UI/UX", "Push Notifications", "App Store Deployment",
+      "Cross-Platform Development", "Mobile Security", "Firebase",
+      "REST API Integration", "GraphQL", "SQLite", "Core Data"
+    ],
+    "Cybersecurity": [
+      "Network Security", "Application Security", "Penetration Testing",
+      "Ethical Hacking", "SIEM", "Firewalls", "VPN", "Cryptography",
+      "Identity & Access Management", "Zero Trust Security", "OWASP",
+      "Vulnerability Assessment", "Incident Response", "Digital Forensics",
+      "Security Auditing", "Compliance (SOC2, ISO27001)", "GDPR", "Cloud Security",
+      "Endpoint Security", "Threat Modeling", "Burp Suite", "Metasploit", "Wireshark"
+    ],
+    "Database": [
+      "SQL", "PostgreSQL", "MySQL", "Oracle Database", "Microsoft SQL Server",
+      "SQLite", "MongoDB", "Cassandra", "DynamoDB", "Redis", "Elasticsearch",
+      "Neo4j", "InfluxDB", "CockroachDB", "Database Design", "Query Optimization",
+      "Indexing", "Stored Procedures", "Transactions", "Data Replication",
+      "Sharding", "ACID Properties", "NoSQL", "NewSQL", "ORM"
+    ],
+    "Blockchain": [
+      "Solidity", "Ethereum", "Web3.js", "Hardhat", "Truffle", "IPFS",
+      "Smart Contracts", "DeFi", "NFTs", "Consensus Mechanisms",
+      "Hyperledger", "Polygon", "Chainlink", "ERC-20", "ERC-721",
+      "Decentralized Applications", "Wallet Integration", "Cryptography",
+      "Zero-Knowledge Proofs", "Layer 2 Solutions"
+    ],
+    "Embedded & Systems": [
+      "C", "C++", "Assembly", "RTOS", "Embedded Linux", "ARM Architecture",
+      "FPGA", "Arduino", "Raspberry Pi", "Microcontrollers", "IoT",
+      "Device Drivers", "Firmware Development", "UART", "SPI", "I2C",
+      "CAN Bus", "PCB Design", "Signal Processing", "MATLAB/Simulink",
+      "Real-Time Systems", "Low-Level Programming", "Memory Management"
+    ],
+    "Product & Project Management": [
+      "Product Management", "Agile Methodology", "Scrum", "Kanban", "SAFe",
+      "Product Roadmapping", "User Story Mapping", "Sprint Planning",
+      "Stakeholder Management", "JIRA", "Confluence", "Notion", "Asana",
+      "OKRs", "KPIs", "A/B Testing", "User Research", "Market Analysis",
+      "Competitive Analysis", "Product Analytics", "Go-to-Market Strategy",
+      "Cross-Functional Leadership", "Technical Product Management"
+    ],
+    "Design & UX": [
+      "UI Design", "UX Design", "Figma", "Adobe XD", "Sketch", "InVision",
+      "Wireframing", "Prototyping", "User Research", "Usability Testing",
+      "Design Systems", "Accessibility", "Responsive Design", "Interaction Design",
+      "Information Architecture", "Visual Design", "Adobe Creative Suite",
+      "Motion Design", "Design Thinking", "User Journey Mapping"
+    ],
+    "Business Intelligence": [
+      "Power BI", "Tableau", "Looker", "Metabase", "Qlik", "MicroStrategy",
+      "Business Analytics", "Data Storytelling", "Dashboard Design",
+      "SQL", "DAX", "MDX", "ETL", "Data Warehousing", "Excel Advanced",
+      "Google Analytics", "Adobe Analytics", "Mixpanel", "Amplitude",
+      "Financial Modeling", "Forecasting", "Business Process Analysis"
+    ],
+    "AI Research": [
+      "PyTorch", "JAX", "Research Methodology", "Paper Writing",
+      "Literature Review", "Experimental Design", "Benchmark Evaluation",
+      "Transformer Architecture", "Attention Mechanisms", "BERT", "GPT",
+      "Diffusion Models", "GANs", "Variational Autoencoders",
+      "Graph Neural Networks", "Federated Learning", "Continual Learning",
+      "Meta-Learning", "Multi-Modal Learning", "RLHF", "Constitutional AI",
+      "LaTeX", "arXiv", "Reproducible Research"
+    ],
+    "Soft Skills": [
+      "Communication", "Team Leadership", "Problem Solving", "Critical Thinking",
+      "Collaboration", "Adaptability", "Time Management", "Attention to Detail",
+      "Mentoring", "Technical Writing", "Presentation Skills", "Project Management",
+      "Stakeholder Management", "Cross-Functional Collaboration",
+      "Conflict Resolution", "Decision Making", "Strategic Thinking",
+      "Ownership & Accountability", "Growth Mindset", "Customer Focus"
+    ],
+    "Language & Tools": [
+      "Git", "GitHub", "GitLab", "Bitbucket", "VS Code", "IntelliJ IDEA",
+      "PyCharm", "Vim", "Postman", "Swagger", "OpenAPI", "Makefile",
+      "Shell Scripting", "Regular Expressions", "JSON", "YAML", "XML",
+      "Protobuf", "gRPC", "OAuth", "JWT", "HTTPS", "WebSockets",
+      "Message Queues", "RabbitMQ", "Apache Kafka", "Celery"
+    ],
+    "QA & Testing": [
+      "Unit Testing", "Integration Testing", "End-to-End Testing",
+      "Test Automation", "pytest", "JUnit", "Selenium", "Cypress",
+      "Playwright", "Jest", "Mocha", "Performance Testing", "Load Testing",
+      "Security Testing", "Regression Testing", "Test-Driven Development",
+      "Behaviour-Driven Development", "CI/CD Testing", "API Testing",
+      "Accessibility Testing", "Mobile Testing"
+    ]
+  },
+  "language_to_skills": {
+    "Python": ["Python", "Data Analysis", "Machine Learning", "Scripting", "Pandas", "NumPy"],
+    "JavaScript": ["JavaScript", "Web Development", "Node.js", "React", "Frontend Development"],
+    "TypeScript": ["TypeScript", "JavaScript", "React", "Angular", "Type Safety"],
+    "Java": ["Java", "Spring Boot", "Object-Oriented Programming", "Backend Development", "Microservices Architecture"],
+    "C++": ["C++", "Systems Programming", "Performance Optimization", "Memory Management", "Algorithms"],
+    "C": ["C", "Embedded Systems", "Systems Programming", "Low-Level Programming", "Memory Management"],
+    "Go": ["Go", "Concurrency", "Backend Development", "Microservices Architecture", "Cloud Native"],
+    "Rust": ["Rust", "Systems Programming", "Memory Safety", "Performance Optimization", "WebAssembly"],
+    "Ruby": ["Ruby", "Ruby on Rails", "Web Development", "Backend Development", "RESTful APIs"],
+    "Swift": ["Swift", "iOS Development", "Mobile Development", "Xcode", "Apple Ecosystem"],
+    "Kotlin": ["Kotlin", "Android Development", "JVM", "Mobile Development", "Spring Boot"],
+    "Scala": ["Scala", "Apache Spark", "Functional Programming", "Big Data", "Distributed Systems"],
+    "R": ["R", "Statistical Analysis", "Data Science", "Data Visualization", "Bioinformatics"],
+    "PHP": ["PHP", "Laravel", "Web Development", "WordPress", "Backend Development"],
+    "C#": ["C#", ".NET", "ASP.NET", "Unity", "Windows Development"],
+    "Shell": ["Bash Scripting", "Linux", "Shell Scripting", "Automation", "DevOps"],
+    "Jupyter Notebook": ["Jupyter", "Data Analysis", "Python", "Data Science", "Exploratory Data Analysis"],
+    "HTML": ["HTML5", "Web Development", "Frontend Development", "CSS3", "Accessibility"],
+    "CSS": ["CSS3", "Frontend Development", "Responsive Design", "Web Design", "Tailwind CSS"],
+    "Dart": ["Dart", "Flutter", "Cross-Platform Development", "Mobile Development"],
+    "Solidity": ["Solidity", "Ethereum", "Smart Contracts", "Blockchain", "DeFi"],
+    "MATLAB": ["MATLAB", "Signal Processing", "Control Systems", "Numerical Computing", "Simulation"]
+  },
+  "job_role_skills": {
+    "Machine Learning Engineer": ["Python", "PyTorch", "TensorFlow", "Machine Learning", "Deep Learning", "MLflow", "Docker", "Kubernetes", "SQL", "Feature Engineering", "Model Deployment"],
+    "Data Scientist": ["Python", "R", "Machine Learning", "Statistical Modeling", "Data Analysis", "SQL", "Pandas", "NumPy", "Data Visualization", "A/B Testing", "Tableau"],
+    "Software Engineer": ["Python", "Java", "JavaScript", "Data Structures", "Algorithms", "System Design", "Git", "REST APIs", "SQL", "Docker", "CI/CD Pipelines"],
+    "Backend Engineer": ["Python", "Java", "Go", "REST APIs", "Microservices Architecture", "SQL", "PostgreSQL", "Redis", "Docker", "Kubernetes", "System Design"],
+    "Frontend Engineer": ["JavaScript", "TypeScript", "React", "Vue.js", "HTML5", "CSS3", "Redux", "Web Performance", "REST API Integration", "Git", "Testing"],
+    "Full Stack Engineer": ["JavaScript", "TypeScript", "React", "Node.js", "Python", "SQL", "PostgreSQL", "MongoDB", "Docker", "REST APIs", "Git"],
+    "DevOps Engineer": ["AWS", "Docker", "Kubernetes", "Terraform", "CI/CD Pipelines", "Linux", "Bash Scripting", "Monitoring", "Infrastructure as Code", "Git", "Python"],
+    "Data Engineer": ["Python", "Apache Spark", "Apache Airflow", "SQL", "dbt", "Snowflake", "Kafka", "ETL Pipelines", "Data Modeling", "Cloud Platforms", "Docker"],
+    "NLP Engineer": ["Python", "Natural Language Processing", "Hugging Face Transformers", "PyTorch", "BERT", "LLMs", "Fine-tuning LLMs", "Embeddings", "Text Classification", "Named Entity Recognition"],
+    "Android Developer": ["Kotlin", "Java (Android)", "Android Development", "Android Studio", "REST API Integration", "SQLite", "Firebase", "MVVM Architecture", "Material Design"],
+    "iOS Developer": ["Swift", "iOS Development", "Xcode", "UIKit", "SwiftUI", "REST API Integration", "Core Data", "Firebase", "App Store Deployment"],
+    "Security Engineer": ["Network Security", "Application Security", "Penetration Testing", "Python", "Linux", "Cryptography", "OWASP", "Incident Response", "Cloud Security"],
+    "Product Manager": ["Product Management", "Agile Methodology", "Scrum", "JIRA", "Product Roadmapping", "User Research", "A/B Testing", "Stakeholder Management", "Data Analysis"],
+    "AI Research Scientist": ["Python", "PyTorch", "JAX", "Machine Learning", "Deep Learning", "Research Methodology", "Transformer Architecture", "Paper Writing", "Statistical Modeling"],
+    "Blockchain Developer": ["Solidity", "Ethereum", "Web3.js", "Smart Contracts", "Hardhat", "JavaScript", "Python", "Cryptography", "DeFi"]
+  },
+  "skill_aliases": {
+    "ML": "Machine Learning",
+    "DL": "Deep Learning",
+    "NLP": "Natural Language Processing",
+    "CV": "Computer Vision",
+    "JS": "JavaScript",
+    "TS": "TypeScript",
+    "K8s": "Kubernetes",
+    "GCP": "Google Cloud Platform",
+    "TF": "TensorFlow",
+    "sklearn": "scikit-learn",
+    "Postgres": "PostgreSQL",
+    "Mongo": "MongoDB",
+    "React.js": "React",
+    "Node": "Node.js",
+    "REST": "RESTful APIs",
+    "CI/CD": "CI/CD Pipelines",
+    "LLM": "Large Language Models",
+    "RAG": "Retrieval Augmented Generation",
+    "HuggingFace": "Hugging Face Transformers",
+    "Spark": "Apache Spark",
+    "Kafka": "Apache Kafka",
+    "Airflow": "Apache Airflow"
+  }
+}
